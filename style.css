@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,800&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,400;0,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px 5px ;
+    box-sizing: border-box;
+}
+
+/* Navbar section */
+
+.navbar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Orbitron';
+    font-weight: 450;
+}
+
+.list li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+.list li:hover::after{
+    content: "";
+    display: block;
+    background-color: black;
+    height: 4px;
+    width: 60px;
+    border-radius: 10px;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.search-icon {
+    padding: 10px 20px;
+}
+
+.nav-button{
+    background: transparent;
+    padding: 5px 40px;
+    border: 3px solid rgb(30, 30, 30);
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+/* Hero Banner Section */
+
+.hero-container {
+    position: relative;
+}
+
+.hero {
+    position: absolute;
+    top: 20px;
+}
+
+
+.square {
+    position: absolute;
+    top: 160px ;
+    left: 25px;
+}
+
+.star {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.globe {
+    position: absolute;
+    left: 750px;
+}
+
+/* Hero Container Right */
+
+.hero-container-right {
+    position: absolute;
+  
+    left: 600px;
+    right: 200px;
+    top: 150px;
+    bottom: 100px;
+    width: 57%;
+}
+
+.hero-heading {
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero-description {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+
+}
+
+.button {
+     position: absolute;
+     left: 250px;
+}
+
+.button-email{
+    font-size: 18px;
+    border: 3px solid rgb(30, 30, 30);
+    border-radius: 10px;
+    padding: 3px 25px;
+    background-color: #ffffff;
+    font-family: 'Orbitron';
+    font-weight: 600;
+}
+
+.button-join {
+    font-size: 18px;
+    border: 3px solid rgb(30, 30, 30);
+    border-radius: 10px;
+    padding: 3px 20px;
+    background-color: #ffffff;
+    font-family: 'Orbitron';
+    font-weight: 600;
+}
+
+.button-join:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+.button-email:hover {
+    background-color: black;
+    color: #ffffff;
+}
+
+.contactus{
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+.contact-heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.icons img {
+    width: 40px;
+    height: 30px;
+}
+
